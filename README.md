@@ -1,2 +1,2 @@
 # clock-multimedia
-Widget for displaying basic info about current date and music or video which is played.
+Widget for displaying basic info about current date, music or video which is playing right now.
