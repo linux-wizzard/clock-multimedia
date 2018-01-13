@@ -51,11 +51,11 @@ conky.config = {
 
 conky.text = [[
 ${font Ubuntu:size=120}${shadecolor e5e5e5}${time %H:%M}${shadecolor}${font}
-${font Ubuntu:size=25}${shadecolor e5e5e5}${offset 25}${time %d. %B} ${image ~/.conky/clock-multimedia/icons/battery.png -p 275,175 -s 40x40}${alignr 20}${font Ubuntu:size=20}${battery_percent}%${font}
-${if_match "${exec ~/.conky/clock-multimedia/scripts/track-info.sh}" == ":"}${if_match "${exec ~/.conky/clock-multimedia/scripts/vlc-info.sh}" != ""}${image ~/.conky/clock-multimedia/icons/vlc.png -p 26,255 -s 23x23 -n}${offset 56}${voffset -20}${font Ubuntu:size=15}${exec ~/.conky/clock-multimedia/scripts/vlc-info.sh}${font}\
+${font Ubuntu:size=25}${shadecolor e5e5e5}${offset 12}${time %d. %B} ${image ~/.conky/clock-multimedia/icons/battery.png -p 275,175 -s 40x40}${alignr 20}${font Ubuntu:size=20}${battery_percent}%${font}
+${if_match "${exec ~/.conky/clock-multimedia/scripts/track-info.sh}" == ":"}${if_match "${exec ~/.conky/clock-multimedia/scripts/vlc-info.sh}" != ""}${image ~/.conky/clock-multimedia/icons/vlc.png -p 16,255 -s 23x23 -n}${offset 46}${voffset -20}${font Ubuntu:size=15}${exec ~/.conky/clock-multimedia/scripts/vlc-info.sh}${font}\
 ${endif}
-    ${else}${image ~/.conky/clock-multimedia/icons/song.png -p 26,255 -s 30x30 -n}${voffset -20}${offset 58}${font Ubuntu:size=15}${exec ~/.conky/clock-multimedia/scripts/track-info.sh}
-	${if_match "${exec ~/.conky/clock-multimedia/scripts/vlc-info.sh}" != ""}${image ~/.conky/clock-multimedia/icons/vlc.png -p 29,312 -s 23x23 -n}${offset 48}${voffset 35}${font Ubuntu:size=15}${exec ~/.conky/clock-multimedia/scripts/vlc-info.sh}${font}\
+    ${else}${image ~/.conky/clock-multimedia/icons/song.png -p 16,255 -s 30x30 -n}${voffset -20}${offset 48}${font Ubuntu:size=15}${exec ~/.conky/clock-multimedia/scripts/track-info.sh}
+	${if_match "${exec ~/.conky/clock-multimedia/scripts/vlc-info.sh}" != ""}${image ~/.conky/clock-multimedia/icons/vlc.png -p 19,312 -s 23x23 -n}${offset 36}${voffset 35}${font Ubuntu:size=15}${exec ~/.conky/clock-multimedia/scripts/vlc-info.sh}${font}\
 	${endif}
 ${endif}
 ${shadecolor}
