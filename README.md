@@ -4,7 +4,7 @@ Widget for displaying basic info about current date and music or video which is 
 ## Installation
 Script in ~/.conky creates folder with name clock-multimedia and copy there inner files. It replaces ~/.conkyrc file with clock-multimedia. For simple run, make installation script executable.
 ```
-$ chmod +x isntall.sh
+$ chmod +x install.sh
 $ ./install.sh
 ```
 ## Remove
