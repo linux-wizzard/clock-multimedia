@@ -1,5 +1,5 @@
 # Clock-multimedia
-Widget for displaying basic info about current date and music or video which is played.
+Widget for displaying basic info about current date and music or video which is played. Please install Conky first, without it it will not work.
 
 ## Installation
 Script in ~/.conky creates folder with name clock-multimedia and copy there inner files. It replaces ~/.conkyrc file with clock-multimedia. For simple run, make installation script executable.
